@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Stickman Mobile Dashboard",
+      "type": "process",
+      "command": "node",
+      "args": ["mobile-dashboard/server.mjs"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {"reveal": "always", "panel": "dedicated", "clear": false},
+      "runOptions": {"instanceLimit": 1}
+    }
+  ]
+}
